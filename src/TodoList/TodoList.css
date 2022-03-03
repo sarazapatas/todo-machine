@@ -1,5 +1,11 @@
 ul {
-  margin: 0;
-  padding: 0 0 56px 0;
-  list-style: none;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-color: #17274e;
+    border-radius: 10px;
+    margin: 10px 23%;
+    padding: 0 10px;
+    
 }

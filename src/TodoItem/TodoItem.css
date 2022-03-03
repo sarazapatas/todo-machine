@@ -1,11 +1,12 @@
 .TodoItem {
-  background-color: #FAFAFA;
+  background-color: white;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 24px;
   box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+
 }
 
 .TodoItem-p {
@@ -14,11 +15,17 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
+  color:#454545;
+  font-weight: bolder;
+}
+svg.TodoCheck.IconCheck-active {
+  color:#4EC3E0;
 }
 .TodoItem-p--complete {
   text-decoration: line-through;
-  color:#4caf50;
+  color:#8ce829;
 }
+
 
 .Icon {
   cursor: pointer;
@@ -29,6 +36,7 @@
   width: 48px;
   font-size: 24px;
   font-weight: bold;
+
 }
 
 .Icon-check {
@@ -36,7 +44,7 @@
   left: 12px;
 }
 .Icon-check--active {
-  color: #4caf50;
+  color: #132E37;
 }
 
 .Icon-delete {

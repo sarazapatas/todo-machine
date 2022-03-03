@@ -1,0 +1,11 @@
+.container{
+     max-width: 50%;
+      margin: 0 auto;
+      max-height: 100vh;
+      overflow: hidden;
+      transition: .3s;
+      border-radius: 0 0 50px 50px;
+      padding: 30px;
+      background-image: radial-gradient(circle at 52% 30%,#00aec7,#158797 99%,#fff 99%);
+      color: white;
+  }
